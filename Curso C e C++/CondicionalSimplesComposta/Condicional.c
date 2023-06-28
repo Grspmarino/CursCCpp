@@ -40,7 +40,7 @@ void main(){
     }else if(opcao ==2){
         printf("\nA opcao = 2");
     }else{
-        printf("A opcao não é iguaç a 1 e nem 2");
+        printf("A opcao não é igual a 1 e nem 2");
     }
 
     getchar();
