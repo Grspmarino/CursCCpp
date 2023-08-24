@@ -21,6 +21,15 @@ int main() {
     //imprimindo o endereço de uma variavel 
     printf("O endereço de a : %d\n", &a);
 
+    //Variaveis armazenma valores 
+    int b = 10;
+
+    //Ponteiros armazenam posiçoes da memoria 
+    int *ponteiro;
+    
+    //Ponteiro recebendo a posição da memória da variavel b 
+    ponteiro = &b;
+
     //Lendo o valor de uma variavel
     cout << "Digite um novo valor para a : ";
     scanf("%d",&a);
